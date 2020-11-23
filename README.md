@@ -52,5 +52,5 @@ The analyzer has 2 required inputs:
 
 Example invocation:
 ```
-python GSA.py --output_metrics --output_addresses ./samples/CHISEL/date/date-8.21 "{'Aggressive':'./samples/CHISEL/date/date-8.21.reduced'}"
+ python3 src/GSA.py --output_metrics --output_addresses ./samples/CHISEL/date/date-8.21.origin ./samples/CHISEL/date/date-8.21.reduced 
 ```
