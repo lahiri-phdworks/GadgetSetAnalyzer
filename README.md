@@ -50,7 +50,14 @@ The analyzer has 2 required inputs:
  1. Original Binary: Filepath to the original binary.
  2. Variant Labels / Binaries: Python Dictionaty consisting of variant names and filepaths to their binaries.
 
-Example invocation:
+## Installs 
+
+```bash
+$ sudo apt-get install python3 python3-dev python3-pip
+$ pip3 install capstone ropgadget angr
+```
+
+## Example invocation:
 ```
  python3 src/GSA.py --output_metrics --output_addresses ./samples/CHISEL/date/date-8.21.origin ./samples/CHISEL/date/date-8.21.reduced 
 ```
